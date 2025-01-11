@@ -1,16 +1,20 @@
 import React, { useState } from "react";
 import "../App.css"
+import Switcher from "./switcher";
 const Welcomepage = () => {
     const [isOpen, setIsOpen] = useState(false);
   return (
    <div>
-    <nav className="bg-cyan-900 text-white">
+    <nav className="bg-cyan-900 dark:bg-gray-400 text-white">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-16">
           {/* Logo */}
           <div className="flex items-center">
             <img sec="" />
             <h1 className="text-xl font-bold">MyLogo</h1>
+          </div>
+          <div>
+            <Switcher/>
           </div>
 
           {/* Desktop Menu */}
@@ -82,7 +86,7 @@ const Welcomepage = () => {
         </div>
       )}
     </nav>
-    <div className="h-screen bg-gradient-to-r from-indigo-500">
+    <div className="h-screen bg-gradient-to-r from-indigo-500 dark:bg-red-500">
       <div className="container mx-auto flex items-center justify-center">
         <div className="mx-auto justify-center text-center">
           <h2 className="font-semibold text-2xl text-yellow-700 mb-2">Welcome To Our</h2>
