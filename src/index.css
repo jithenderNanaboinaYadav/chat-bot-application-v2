@@ -3,11 +3,36 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
 body {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: "Lato", serif;
+  font-family: "Lato", sans-serif;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #cbd5e1;
+  border-radius: 3px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #94a3b8;
 }
 
 code {
