@@ -2,7 +2,6 @@ import { NavLink } from "react-router-dom";
 import {
   MdDashboard,
   MdAccountBalance,
-  MdPayment,
   MdPeople,
   MdSwapHoriz,
   MdLock,

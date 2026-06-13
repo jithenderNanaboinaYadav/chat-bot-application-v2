@@ -1,4 +1,4 @@
-import { MdSettings, MdSave } from "react-icons/md";
+import { MdSave } from "react-icons/md";
 import Header from "../Layout/Header";
 
 function Settings() {
